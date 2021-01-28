@@ -9,21 +9,29 @@ pull requests, issues, and labels are used within the repository. The intent her
 readability, consistency, and documentation within the repo by way of templates.
 
 # Table of Contents
-* [Set Up Probot](#set-up-probot)
+* [Installation](#installation)
 * [Labels](#labels)
 * [Issue Templates](#issue-templates)
   * [Bug Report Template](#bug-report-template)
   * [Feature Request Template](#feature-request-template)
 * [Pull Request Template](#pull-request-template)
 
-# Set up Probot
+# Installation
 
-In order to get [settings.yml](.github/settings.yml) to sync with the GitHub repo and standardize
-the labels, you will need to install the GitHub App named
-[Probot](https://probot.github.io/apps/settings/). After installation, Probot can be configured to
-only have access to specific repositories of your choosing or all of your repositories. In order for
-it to sync your newly made repo, at the very least, Probot will need access to that repo. It is up
-to you to decide if you would like it to access just the newly made one, or all repos.
+1. Use this Template Repository
+    - To use this template repository, navigate to the home page of this repository and click the
+      green `Use this template` button near the top of the page.
+    - Create your repository as normal, with all your personal settings -- name, description,
+      repo privacy, etc.
+
+2. Set up Probot
+    - In order to get [settings.yml](.github/settings.yml) to sync with the GitHub repo and
+      standardize the labels, you will need to install the GitHub App named
+      [Probot](https://probot.github.io/apps/settings/). After installation, Probot can be
+      configured to only have access to specific repositories of your choosing or all of your
+      repositories. In order for it to sync your newly made repo, at the very least, Probot will
+      need access to that repo. It is up to you to decide if you would like it to access just the
+      newly made one, or all repos.
 
 # Labels
 
@@ -38,6 +46,10 @@ For more examples and an explanation on how to effectively use them to sort thro
 features, visit
 [Sane GitHub Labels by Dave Lunny](https://medium.com/@dave_lunny/sane-github-labels-c5d2e6004b63).
 
+The labels currently created within this repository are as follows:
+
+<img width="473" alt="Screen Shot 2021-01-28 at 10 04 25 AM" src="https://user-images.githubusercontent.com/46981564/106172728-5f5adb80-6150-11eb-95c2-14d3449a179e.png">
+
 # Issue Templates
 
 There are two different kinds of issue templates within this repository -- bug reports and feature
@@ -47,6 +59,8 @@ to the `Issues` tab within your repo and click the green `New Issue` button.
 This will bring you to a new menu that allows you decide between creating an issue from a template,
 in this case, between the bug report and feature request templates. You may also click on `Open a
 blank issue.` if neither templates apply to your issue.
+
+<img width="878" alt="Screen Shot 2021-01-26 at 3 25 38 PM" src="https://user-images.githubusercontent.com/46981564/105914120-1b01fb00-5feb-11eb-87fb-cc1bbade7607.png">
 
 ## Bug Report Template
 
@@ -65,6 +79,11 @@ information is as follows:
 While looking at the bug report, you may notice that there are sentences that are wrapped with
 `<!--` and `-->`. These do not need to be removed when finally submitting the new issue, as they
 indicate that the sentences are commented out within the markdown language used in creating issues.
+
+The following is an example of the body of a bug report that hasn't been filled in with any
+additional information, it just has the template formatting:
+
+<img width="1035" alt="Screen Shot 2021-01-27 at 9 56 25 PM" src="https://user-images.githubusercontent.com/46981564/106091940-97c7ce80-60ea-11eb-98f3-dbfcbc1b059e.png">
 
 ## Feature Request Template
 
@@ -85,6 +104,11 @@ While looking at the feature request, you may notice that there are sentences th
 `<!--` and `-->`. These do not need to be removed when finally submitting the new issue, as they
 indicate that the sentences are commented out within the markdown language used in creating issues.
 
+The following is an example of the body of a feature request that hasn't been filled in with any
+additional information, it just has the template formatting:
+
+<img width="801" alt="Screen Shot 2021-01-28 at 9 32 39 AM" src="https://user-images.githubusercontent.com/46981564/106168810-efe2ed00-614b-11eb-93c6-4f7ff8b075e1.png">
+
 # Pull Request Template
 
 The Pull Request Template is, as the name suggests, used when creating a new pull request. This will
@@ -95,3 +119,8 @@ To view more information based on the markdown, see the file
 sentences that are wrapped with `<!--` and `-->`. These do not need to be removed when finally
 creating the new pull request, as they indicate that the sentences are commented out within the
 markdown language used in creating the bodies of the pull request.
+
+The following is an example of the body of a pull request that hasn't been filled in with any
+additional information, it just has the template formatting:
+
+<img width="1035" alt="Screen Shot 2021-01-27 at 9 26 48 PM" src="https://user-images.githubusercontent.com/46981564/106090212-e7a49680-60e6-11eb-9fe4-180bc21599ef.png">
