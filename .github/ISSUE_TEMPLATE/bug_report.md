@@ -2,6 +2,7 @@
 name: Bug Report
 about: Create a report to help us improve.
 title: "[BUG]"
+labels: 'Status: Available, Type: Bug'
 ---
 <!-- Provide a general summary of the issue in the Title above. -->
 

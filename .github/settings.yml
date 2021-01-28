@@ -1,0 +1,38 @@
+# These settings are synced to GitHub by https://probot.github.io/apps/settings/
+
+labels:
+  - name: 'Status: Available'
+    color: '#0e8a16'
+    description: The Issue/PR is Available for work.
+
+  - name: 'Status: Blocked'
+    color: '#b60205'
+    description: The Issue/PR is Blocked.
+
+  - name: 'Status: Completed'
+    color: '#006b75'
+    description: The Issue/PR is Accepted and Completed.
+
+  - name: 'Status: In Progress'
+    color: '#bfd4f2'
+    description: The Issue/PR is In Progress.
+
+  - name: 'Status: On Hold'
+    color: '#b60205'
+    description: The Issue/PR has been put On Hold.
+
+  - name: 'Type: Bug'
+    color: '#d93f0b'
+    description: The Issue/PR concerns a bug.
+
+  - name: 'Type: Documentation'
+    color: '#5319e7'
+    description: The Issue/PR contributes to documentation.
+
+  - name: 'Type: Enhancement'
+    color: '#0052cc'
+    description: The Issue/PR concerns a new feature or request.
+
+  - name: 'Type: Maintenance'
+    color: '#fbca04'
+    description: The Issue/PR concerns upkeep/maintenance.

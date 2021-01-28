@@ -1,17 +1,42 @@
 # GitHub Template Repository
 
-This repository is meant to more easily set up the organization and tracking aspect of GitHub. There
-are templates for when creating a pull request, bug report, or feature request.
+This repository is meant to more easily set up the organization and tracking aspect of GitHub. This
+includes setting up all relevant labels for pull requests and issues. There are also templates for
+when creating a pull request, bug report, or feature request.
 
 This will assist in cutting down the time needed to initialize a repository and standardize the way
-pull requests and issues are used within the repository. The intent here is to increase readability,
-consistency, and documentation within the repo by way of templates.
+pull requests, issues, and labels are used within the repository. The intent here is to increase
+readability, consistency, and documentation within the repo by way of templates.
 
 # Table of Contents
+* [Set Up Probot](#set-up-probot)
+* [Labels](#labels)
 * [Issue Templates](#issue-templates)
   * [Bug Report Template](#bug-report-template)
   * [Feature Request Template](#feature-request-template)
 * [Pull Request Template](#pull-request-template)
+
+# Set up Probot
+
+In order to get [settings.yml](.github/settings.yml) to sync with the GitHub repo and standardize
+the labels, you will need to install the GitHub App named
+[Probot](https://probot.github.io/apps/settings/). After installation, Probot can be configured to
+only have access to specific repositories of your choosing or all of your repositories. In order for
+it to sync your newly made repo, at the very least, Probot will need access to that repo. It is up
+to you to decide if you would like it to access just the newly made one, or all repos.
+
+# Labels
+
+All the labels included have been inspired by the article
+[Sane GitHub Labels by Dave Lunny](https://medium.com/@dave_lunny/sane-github-labels-c5d2e6004b63).
+This way we can more easily differentiate between the type of issue and its status. This adds more
+readability to the process. Additionally, you may add more labels for the priority.
+
+For example: `"Priority: P0"`, `"Priority: High"`, etc.
+
+For more examples and an explanation on how to effectively use them to sort through issues and
+features, visit
+[Sane GitHub Labels by Dave Lunny](https://medium.com/@dave_lunny/sane-github-labels-c5d2e6004b63).
 
 # Issue Templates
 
@@ -19,9 +44,9 @@ There are two different kinds of issue templates within this repository -- bug r
 requests. These will appear as templates to choose from when creating a new issue. Simply navigate
 to the `Issues` tab within your repo and click the green `New Issue` button.
 
-This will bring you to a new menu that allows you decide between creating an issue from a template, in
-this case, between the bug report and feature request templates. You may also click on `Open a blank
-issue.` if neither templates apply to your issue.
+This will bring you to a new menu that allows you decide between creating an issue from a template,
+in this case, between the bug report and feature request templates. You may also click on `Open a
+blank issue.` if neither templates apply to your issue.
 
 ## Bug Report Template
 
@@ -33,6 +58,7 @@ Specific information has already been determined to cut out the time needed to s
 bug report that is consistent with all others found in your repo. The list of predetermined
 information is as follows:
 - The title supplies the prefix `[BUG]` to help identify the issue as a bug report from a glance.
+- The labels are predetermined as the issue type `bug` and having a status of `available`.
 - The body of the bug report gives guidance and structure to what the bug report should generally
   look like.
 
@@ -51,6 +77,7 @@ feature request that is consistent with all others found in your repo. The list 
 information is as follows:
 - The title supplies the prefix `[FEATURE]` to help identify the issue as a feature request from a
   glance.
+- The labels are predetermined as the issue type `enhancement` and having a status of `available`.
 - The body of the feature request gives guidance and structure to what the feature request should
   generally look like.
 
