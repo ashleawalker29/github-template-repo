@@ -2,6 +2,7 @@
 name: Feature request
 about: Suggest an idea for this project.
 title: "[FEATURE]"
+labels: 'Status: Available, Type: Enhancement'
 ---
 <!-- Provide a general summary of the feature in the Title above. -->
 
